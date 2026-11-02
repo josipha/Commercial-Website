@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">ShopEase 🛍️</h1>
+
+        <nav>
+            <a href="index1.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="products.html" class="cart">🛒 Shop Now</a>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="tagline">YOUR EVERYDAY SHOPPING DESTINATION</p>
+            <h2>Find Your Style,<br>Shop Your Way!</h2>
+            <p>Discover trendy fashion, stylish shoes and everyday
+               essentials at affordable prices.</p>
+            <a href="products.html" class="btn">Explore Collection →</a>
+        </div>
+
+        <div class="hero-image">
+            🛍️ 👕 👟
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Shop by Category</h2>
+
+        <div class="categories">
+            <div class="category">
+                <span>👕</span>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category">
+                <span>👟</span>
+                <h3>Footwear</h3>
+            </div>
+
+            <div class="category">
+                <span>🎒</span>
+                <h3>Bags</h3>
+            </div>
+
+            <div class="category">
+                <span>⌚</span>
+                <h3>Accessories</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="products">
+        <div class="section-heading">
+            <h2>Featured Products</h2>
+            <a href="products.html">View All →</a>
+        </div>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="product-image">👕</div>
+                <h3>Classic T-Shirt</h3>
+                <p>Comfortable everyday wear</p>
+                <h3 class="price">₹499</h3>
+                <button onclick="buy('Classic T-Shirt')">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">👟</div>
+                <h3>Sport Shoes</h3>
+                <p>Style meets comfort</p>
+                <h3 class="price">₹999</h3>
+                <button onclick="buy('Sport Shoes')">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">🎒</div>
+                <h3>Travel Backpack</h3>
+                <p>Perfect for everyday use</p>
+                <h3 class="price">₹699</h3>
+                <button onclick="buy('Travel Backpack')">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">⌚</div>
+                <h3>Classic Watch</h3>
+                <p>Complete your look</p>
+                <h3 class="price">₹1299</h3>
+                <button onclick="buy('Classic Watch')">Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="offer">
+        <h2>Discover Something You Love!</h2>
+        <p>Explore our latest collection and find your favourite products.</p>
+        <a href="products.html" class="btn">Shop Collection</a>
+    </section>
+
+    <footer>
+        <h2>ShopEase</h2>
+        <p>Your everyday shopping destination.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>Contact: support@shopease.com</p>
+        <p>© 2026 ShopEase. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function buy(product) {
+            alert("You selected: " + product);
+        }
+    </script>
+
+</body>
+</html>

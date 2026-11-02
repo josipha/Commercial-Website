@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact ShopEase</title>
+    <style>
+        body { font-family: Arial; margin: 0; background: #f4f4f4; }
+        header, footer {
+            background: #172554; color: white;
+            padding: 20px; text-align: center;
+        }
+        nav { margin-top: 15px; }
+        nav a { color: white; margin: 10px; text-decoration: none; }
+        .contact {
+            background: white; max-width: 400px;
+            margin: 40px auto; padding: 25px;
+        }
+        input, textarea {
+            width: 100%; padding: 10px;
+            margin: 10px 0; box-sizing: border-box;
+        }
+        button {
+            width: 100%; padding: 12px;
+            background: #2563eb; color: white; border: none;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>ShopEase</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@shopease.com</p>
+    <p>Location: Chennai, Tamil Nadu</p>
+
+    <form onsubmit="event.preventDefault(); alert('Thank you for contacting us!')">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer><p>© 2026 ShopEase</p></footer>
+</body>
+</html>
